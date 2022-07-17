@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Page';
+    src: url(./fuentes/Montserrat-VariableFont_wght.ttf);
+}
+body{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Page', 'Arial';
+    
+}
+
+.login{
+    height: 35%;
+    width: 40%;
+    background-color: pink;
+    border-radius:20px;
+    display: inline-block;
+    background-image: url(img/david.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:right;
+
+    
+}
+
+.login-contenedor1{
+    height:100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+input{
+    height: 10%;
+    width: 80%;
+    border-radius: 13px;
+    margin-left: 10px;
+    align-self: flex-start;
+    font-family: 'Page';
+    border-style: hidden;
+    
+}
+p{
+    align-self: flex-start;
+    margin-left: 15px;
+    font-weight: 800;
+}
+.boton{
+    margin-top:10px;
+    border-style: hidden;
+    
+}
+.boton:hover{
+    background-color:blueviolet;
+}
